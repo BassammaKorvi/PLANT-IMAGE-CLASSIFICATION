@@ -3,7 +3,7 @@ import tensorflow as tf
 from PIL import Image
 
 # Load your trained model here
-model = tf.keras.models.load_model('C:/Users/chanu/PycharmProjects/internship/potato.h5')
+model = tf.keras.models.load_model('C:/Users/chanu/Downloads/prowasterecycle.h5')
 
 # Define a function to preprocess the image and make predictions
 def classify_image(image):
