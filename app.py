@@ -1,10 +1,10 @@
 import streamlit as st
 import tensorflow as tf
 from PIL import Image
-
+from tensorflow.python.tools import module_util as _module_util
 # Load your trained model here
-model = tf.keras.models.load_model('C:/Users/chanu/Downloads/prowasterecycle')
-
+model = tf.keras.models.load_model("C:/Users/chanu/Desktop/POTATO/prowasterecycle (1)")
+# "C:\Users\chanu\Desktop\POTATO\prowasterecycle (1).h5"
 # Define a function to preprocess the image and make predictions
 def classify_image(image):
     # Preprocess the image
